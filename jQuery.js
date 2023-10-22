@@ -64,4 +64,5 @@ $(function () {
 
 // 	- pratite resize događaj na korisničkom ekranu ispisujući širinu ekrana u konzolu
 // 	- pratite kretanje miša i na ulazak miša preko retka tablice promijenite mu pozadinsku boju
-// 	- na izlazak miša sa retka mora se pozadinska boja vratiti na prijašnju
+// 	- na izlazak miša sa retka mora se pozadinska boja vratiti na prijasnju 
+)
