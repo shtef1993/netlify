@@ -44,25 +44,11 @@ $(function () {
     fillList();
   };
 
-  xhr.send()
-  
-  $(window).on("resize", function(){
-    const windowWidth =  $(window).width();
-    console.log("Widow width: ${widowWidth)px");
+  xhr.send();
 });
-
-  $(document).on("mouseover", "#result tbody tr", function() {
-    $(this).css("backgroud-color", "yellow");
-  });
-
-  $(document).on("mouseout", "#result tbody tr", function() {
-    $(this).css("backgroud-color", "");
-  });
-}
 
 // 1. Pomoću jQueryja:
 
 // 	- pratite resize događaj na korisničkom ekranu ispisujući širinu ekrana u konzolu
 // 	- pratite kretanje miša i na ulazak miša preko retka tablice promijenite mu pozadinsku boju
-// 	- na izlazak miša sa retka mora se pozadinska boja vratiti na prijasnju 
-)
+// 	- na izlazak miša sa retka mora se pozadinska boja vratiti na prijašnju
